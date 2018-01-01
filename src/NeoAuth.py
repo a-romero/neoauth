@@ -6,7 +6,7 @@ VERSION = "3.0.0"
 
 from boa.blockchain.vm.Neo.Runtime import Log
 from boa.blockchain.vm.Neo.Storage import GetContext, Put
-from boa.blockchain.vm.Neo.Transaction import GetHash
+from boa.blockchain.vm.Neo.Transaction import GetHash,GetUnspentCoins
 from boa.blockchain.vm.System.ExecutionEngine import GetScriptContainer
 from boa.code.builtins import concat
 

@@ -1,28 +1,4 @@
-<p align="center">
-  <img 
-    src="http://res.cloudinary.com/vidsy/image/upload/v1512688296/ba-black-green_e3sqlz.svg" 
-    width="100px"
-    style="padding: 20px 0;"
-  >
-</p>
-
-<h1 align="center">smart-contract</h1>
-
-<p align="center">
-  <a href="https://neo.org/">NEO</a> smart contract for 
-  <a href="https://neoauth.org">NeoAuth</a>.
-</p>
-
-<p align="center">
-  <a href="https://github.com/neoauth/smart-contract/releases">
-    <img src="https://img.shields.io/github/tag/neoauth/smart-contract.svg?style=flat">
-  </a>
-</p>
-
-## What?
-
-- Official NEO smart contract for NeoAuth.
-- Written in Python.
+#NeoAuth
 
 ## Contract Address
 
@@ -73,10 +49,3 @@ The smart contract can be tested locally using
 build /path/to/neoauth/smart-contract/src/NeoAuth.py test 0707 02 True ae6d0adc-5168-4cc4-8ba0-741380e68e35 f88d2cda-2da2-4c6a-95d5-b31f06433604
 ```
 
----
-
-<p align="center">
-  Check out the NeoAuth <a href="http://demo.neoauth.org">Demo</a>.
-  <br>
-  🔐
-</p>
