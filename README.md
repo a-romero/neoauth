@@ -14,7 +14,7 @@ The smart contract can be compiled using the `coz/neo-boa-compiler` Docker image
 from [neo-compiler-docker](https://github.com/CityOfZion/neo-compiler-docker):
 
 ```
-make compile
+docker run -it -v /opt/neoauth/src:/compile/src coz/neo-boa-compiler NeoAuth.py
 ```
 
 ## Parameters
